@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TaskFlow</string>
+    <string name="btnNew">Novo</string>
+    <string name="lblNewContact">Novo contato</string>
 </resources>
