@@ -1,4 +1,4 @@
-package com.nyz.taskflow
+package com.nyz.taskflow.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.nyz.taskflow.R
 
 class MainActivity : AppCompatActivity() {
 

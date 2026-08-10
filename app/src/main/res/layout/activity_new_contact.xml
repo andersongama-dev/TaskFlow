@@ -10,7 +10,7 @@
 
     <!-- Ícone -->
     <ImageView
-        android:id="@+id/imgContato"
+        android:id="@+id/imgContact"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@android:drawable/ic_menu_myplaces"
@@ -22,14 +22,14 @@
 
     <!-- Título -->
     <TextView
-        android:id="@+id/txtTitulo"
+        android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Novo Contato"
         android:textSize="28sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/imgContato"
+        app:layout_constraintTop_toBottomOf="@id/imgContact"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -38,12 +38,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtNome"
+            android:id="@+id/edtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nome"/>
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtTelefone"
+            android:id="@+id/edtPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Telefone"
@@ -97,7 +97,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnSalvar"
+            android:id="@+id/btnSave"
             android:layout_width="0dp"
             android:layout_height="56dp"
             android:layout_weight="1"
@@ -108,7 +108,7 @@
             app:icon="@android:drawable/ic_menu_save" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnExcluir"
+            android:id="@+id/btnDelete"
             style="@style/Widget.Material3.Button.OutlinedButton"
             android:layout_width="0dp"
             android:layout_height="56dp"

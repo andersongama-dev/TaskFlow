@@ -1,7 +1,8 @@
-package com.nyz.taskflow
+package com.nyz.taskflow.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.nyz.taskflow.R
 
 class NewContactActivity : AppCompatActivity() {
 
